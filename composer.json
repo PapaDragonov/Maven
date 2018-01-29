@@ -1,11 +1,10 @@
 {
-    "name": "sukohi/maven",
+    "name": "papadragonov/maven",
     "description": "A Laravel package to manage FAQ.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sukohi",
-            "email": "capilano.sukohi@gmail.com"
+            "name": "PapaDragonov",
         }
     ],
     "require": {
