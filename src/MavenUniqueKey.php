@@ -87,7 +87,7 @@ class MavenUniqueKey extends Model
 
         if(!in_array($locale, config('maven.locales'))) $locale = config('maven.fallback_locale');
         $faqs = $this->faqs;
-        return $faq = $faqs->firstWhere('locale', $locale) ? : $faqs->firstWhere('locale', config('maven.fallback_locale'));
+        return $faqs->firstWhere('locale', $locale) ? : $faqs->firstWhere('locale', config('maven.fallback_locale'));
 
     }
 
